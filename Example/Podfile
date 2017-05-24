@@ -1,5 +1,7 @@
 use_frameworks!
 
+'echo "2.3" > .swift-version'
+
 target 'FinalObjectiveC_Example' do
   pod 'FinalObjectiveC', :path => '../'
 
