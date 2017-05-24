@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4AA9EE97B5D23B8B4952B769 /* Pods_FinalObjectiveC_Example_FinalObjectiveC_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33D2AA127CA28F7D278EFF0A /* Pods_FinalObjectiveC_Example_FinalObjectiveC_Tests.framework */; };
 		5BDAA869C7798026B12D5B32 /* Pods_FinalObjectiveC_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47922BC620E50710F4271C9C /* Pods_FinalObjectiveC_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -37,9 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0FD6354838C6D4EA490EF80E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0F6954914E2F742C7DE92DE2 /* Pods-FinalObjectiveC_Example-FinalObjectiveC_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalObjectiveC_Example-FinalObjectiveC_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FinalObjectiveC_Example-FinalObjectiveC_Tests/Pods-FinalObjectiveC_Example-FinalObjectiveC_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0FD6354838C6D4EA490EF80E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		1269B0EDDD1D1A9F9774B92B /* Pods-FinalObjectiveC_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalObjectiveC_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FinalObjectiveC_Tests/Pods-FinalObjectiveC_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2E1FBA25E7CA5B1B986D4FB0 /* Pods-FinalObjectiveC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalObjectiveC_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-FinalObjectiveC_Example/Pods-FinalObjectiveC_Example.release.xcconfig"; sourceTree = "<group>"; };
+		33D2AA127CA28F7D278EFF0A /* Pods_FinalObjectiveC_Example_FinalObjectiveC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FinalObjectiveC_Example_FinalObjectiveC_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		47922BC620E50710F4271C9C /* Pods_FinalObjectiveC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FinalObjectiveC_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* FinalObjectiveC_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalObjectiveC_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,11 +65,12 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77483FA0231BD5E9E67E0256 /* Pods-FinalObjectiveC_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalObjectiveC_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FinalObjectiveC_Example/Pods-FinalObjectiveC_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7864E42E53263CE539760112 /* FinalObjectiveC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FinalObjectiveC.podspec; path = ../FinalObjectiveC.podspec; sourceTree = "<group>"; };
+		7864E42E53263CE539760112 /* FinalObjectiveC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FinalObjectiveC.podspec; path = ../FinalObjectiveC.podspec; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		87925A0937ED938CF4454CF8 /* Pods_FinalObjectiveC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FinalObjectiveC_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA0FE78D601D6F07F20986DE /* Pods-FinalObjectiveC_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalObjectiveC_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FinalObjectiveC_Tests/Pods-FinalObjectiveC_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		EC23CBD7684B6BC4EDA0A879 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EC23CBD7684B6BC4EDA0A879 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F0889C35818CA6C3CFCBAE63 /* Pods-FinalObjectiveC_Example-FinalObjectiveC_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalObjectiveC_Example-FinalObjectiveC_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FinalObjectiveC_Example-FinalObjectiveC_Tests/Pods-FinalObjectiveC_Example-FinalObjectiveC_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,7 @@
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
 				5BDAA869C7798026B12D5B32 /* Pods_FinalObjectiveC_Tests.framework in Frameworks */,
+				4AA9EE97B5D23B8B4952B769 /* Pods_FinalObjectiveC_Example_FinalObjectiveC_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +130,7 @@
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				87925A0937ED938CF4454CF8 /* Pods_FinalObjectiveC_Example.framework */,
 				47922BC620E50710F4271C9C /* Pods_FinalObjectiveC_Tests.framework */,
+				33D2AA127CA28F7D278EFF0A /* Pods_FinalObjectiveC_Example_FinalObjectiveC_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -192,6 +198,8 @@
 				2E1FBA25E7CA5B1B986D4FB0 /* Pods-FinalObjectiveC_Example.release.xcconfig */,
 				AA0FE78D601D6F07F20986DE /* Pods-FinalObjectiveC_Tests.debug.xcconfig */,
 				1269B0EDDD1D1A9F9774B92B /* Pods-FinalObjectiveC_Tests.release.xcconfig */,
+				F0889C35818CA6C3CFCBAE63 /* Pods-FinalObjectiveC_Example-FinalObjectiveC_Tests.debug.xcconfig */,
+				0F6954914E2F742C7DE92DE2 /* Pods-FinalObjectiveC_Example-FinalObjectiveC_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -250,7 +258,11 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "YOUR NAME";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						ProvisioningStyle = Manual;
+					};
 					6003F5AD195388D20070C39A = {
+						ProvisioningStyle = Manual;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -369,7 +381,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FinalObjectiveC_Tests/Pods-FinalObjectiveC_Tests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FinalObjectiveC_Example-FinalObjectiveC_Tests/Pods-FinalObjectiveC_Example-FinalObjectiveC_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EF9E5D0AB5CBC619ACEC9EB0 /* [CP] Copy Pods Resources */ = {
@@ -384,7 +396,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FinalObjectiveC_Tests/Pods-FinalObjectiveC_Tests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FinalObjectiveC_Example-FinalObjectiveC_Tests/Pods-FinalObjectiveC_Example-FinalObjectiveC_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -524,6 +536,7 @@
 			baseConfigurationReference = 77483FA0231BD5E9E67E0256 /* Pods-FinalObjectiveC_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FinalObjectiveC/FinalObjectiveC-Prefix.pch";
 				INFOPLIST_FILE = "FinalObjectiveC/FinalObjectiveC-Info.plist";
@@ -539,6 +552,7 @@
 			baseConfigurationReference = 2E1FBA25E7CA5B1B986D4FB0 /* Pods-FinalObjectiveC_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FinalObjectiveC/FinalObjectiveC-Prefix.pch";
 				INFOPLIST_FILE = "FinalObjectiveC/FinalObjectiveC-Info.plist";
@@ -551,9 +565,10 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA0FE78D601D6F07F20986DE /* Pods-FinalObjectiveC_Tests.debug.xcconfig */;
+			baseConfigurationReference = F0889C35818CA6C3CFCBAE63 /* Pods-FinalObjectiveC_Example-FinalObjectiveC_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -575,9 +590,10 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1269B0EDDD1D1A9F9774B92B /* Pods-FinalObjectiveC_Tests.release.xcconfig */;
+			baseConfigurationReference = 0F6954914E2F742C7DE92DE2 /* Pods-FinalObjectiveC_Example-FinalObjectiveC_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

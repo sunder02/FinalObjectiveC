@@ -7,6 +7,7 @@
 //
 
 #import "FSSViewController.h"
+#import <FinalObjectiveC/MyManager.h>
 
 @interface FSSViewController ()
 
@@ -17,7 +18,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    MyManager *obj=[[MyManager alloc]init];
+    [obj addSomeText];
 }
 
 - (void)didReceiveMemoryWarning

@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_FinalObjectiveC_Example_FinalObjectiveC_Tests : NSObject
+@end
+@implementation PodsDummy_Pods_FinalObjectiveC_Example_FinalObjectiveC_Tests
+@end

@@ -1,0 +1,6 @@
+framework module FinalObjectiveC {
+  umbrella header "FinalObjectiveC-umbrella.h"
+
+  export *
+  module * { export * }
+}
