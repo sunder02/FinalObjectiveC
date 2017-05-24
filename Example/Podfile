@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FinalObjectiveC_Example' do
+  pod 'FinalObjectiveC', :path => '../'
+
+  target 'FinalObjectiveC_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
