@@ -1,6 +1,6 @@
 {
   "name": "FinalObjectiveC",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "This is my final cocoapod project man, FinalObjectiveC.",
   "homepage": "https://github.com/sunder02/FinalObjectiveC",
   "license": {
@@ -12,15 +12,14 @@
   },
   "source": {
     "git": "https://github.com/sunder02/FinalObjectiveC.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "FinalObjectiveC/Classes/**/*",
-  "resource_bundles": {
-    "FinalObjectiveC": [
-      "FinalObjectiveC/Assets/*.png"
-    ]
-  }
+  "source_files": [
+    "FinalObjectiveC/Classes/**/*",
+    "FinalObjectiveC/PublicHeaders/*"
+  ],
+  "public_header_files": "FinalObjectiveC/PublicHeaders/*.h"
 }

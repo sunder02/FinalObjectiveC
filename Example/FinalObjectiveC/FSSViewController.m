@@ -8,6 +8,7 @@
 
 #import "FSSViewController.h"
 #import <FinalObjectiveC/MyManager.h>
+#import <FinalObjectiveC/HojaHeader.h>
 
 @interface FSSViewController ()
 
@@ -20,6 +21,9 @@
     [super viewDidLoad];
     MyManager *obj=[[MyManager alloc]init];
     [obj addSomeText];
+    
+    HojaHeader *getpublic=[[HojaHeader alloc]init];
+    [getpublic mainHeaderFile];
 }
 
 - (void)didReceiveMemoryWarning

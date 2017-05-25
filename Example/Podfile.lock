@@ -1,5 +1,5 @@
 PODS:
-  - FinalObjectiveC (0.1.0)
+  - FinalObjectiveC (0.1.1)
 
 DEPENDENCIES:
   - FinalObjectiveC (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FinalObjectiveC: 7deee020c972c0eda137f4fd059d4775fe79d93d
+  FinalObjectiveC: f2996348bbf11d2be794d132aab9534c48cf8c5e
 
-PODFILE CHECKSUM: b8bf0579608a1bea0761d79680d15e133d3bd471
+PODFILE CHECKSUM: be99fc456867f319859ab4daef754d7a3c21252f
 
 COCOAPODS: 1.2.1
