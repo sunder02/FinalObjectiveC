@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		2CEC7AB46A7BDEA6645C96BB4F09AE4C /* MyManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 565F0024B00F6A13FEDED569616AEA59 /* MyManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37F7C25B1ED6ABE000DAF03B /* AddControllerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 37F7C2591ED6ABE000DAF03B /* AddControllerManager.h */; };
+		37F7C25C1ED6ABE000DAF03B /* AddControllerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F7C25A1ED6ABE000DAF03B /* AddControllerManager.m */; };
+		37F7C25F1ED6AC0700DAF03B /* SecondAddConroller.h in Headers */ = {isa = PBXBuildFile; fileRef = 37F7C25D1ED6AC0700DAF03B /* SecondAddConroller.h */; };
+		37F7C2601ED6AC0700DAF03B /* SecondAddConroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F7C25E1ED6AC0700DAF03B /* SecondAddConroller.m */; };
 		3A0D6697680C6B379D36D53064210F20 /* Pods-FinalObjectiveC_Example-FinalObjectiveC_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA8C0D603CFAA94A1B8A32ED85EB589 /* Pods-FinalObjectiveC_Example-FinalObjectiveC_Tests-dummy.m */; };
 		47771311CE3D480040E40A51C4924E12 /* FinalObjectiveC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FEA57F02BB105ACAEAE8FF33E9D070EC /* FinalObjectiveC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4EDB7C119FE00907DBDF9F0FC79F7E56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -51,34 +55,38 @@
 		0B03A55C41F0487A3DF1A4534FF84986 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C948F5EB26EADEAF7F271D179A3D1CA /* Pods-FinalObjectiveC_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FinalObjectiveC_Example-frameworks.sh"; sourceTree = "<group>"; };
 		1E320C06E298BAE63577B3946CE94FCD /* FinalObjectiveC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FinalObjectiveC-prefix.pch"; sourceTree = "<group>"; };
-		243BAEAE53652C73ECA7F1CD7A14CA8D /* FinalObjectiveC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FinalObjectiveC.framework; path = FinalObjectiveC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		243BAEAE53652C73ECA7F1CD7A14CA8D /* FinalObjectiveC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FinalObjectiveC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CA8C0D603CFAA94A1B8A32ED85EB589 /* Pods-FinalObjectiveC_Example-FinalObjectiveC_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FinalObjectiveC_Example-FinalObjectiveC_Tests-dummy.m"; sourceTree = "<group>"; };
 		3177182B17FAA7A98CB2C686DAF00039 /* Pods-FinalObjectiveC_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FinalObjectiveC_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3402D88EB2287C202C3F61E9A06F722B /* Pods-FinalObjectiveC_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FinalObjectiveC_Example-resources.sh"; sourceTree = "<group>"; };
 		379DE053680D581DAA14D0B88B2CEDF8 /* FinalObjectiveC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FinalObjectiveC-dummy.m"; sourceTree = "<group>"; };
-		38B8CEB41B4AC174FE0CE65845AF5751 /* Pods-FinalObjectiveC_Example-FinalObjectiveC_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FinalObjectiveC_Example-FinalObjectiveC_Tests.modulemap"; sourceTree = "<group>"; };
+		37F7C2591ED6ABE000DAF03B /* AddControllerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddControllerManager.h; sourceTree = "<group>"; };
+		37F7C25A1ED6ABE000DAF03B /* AddControllerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddControllerManager.m; sourceTree = "<group>"; };
+		37F7C25D1ED6AC0700DAF03B /* SecondAddConroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondAddConroller.h; sourceTree = "<group>"; };
+		37F7C25E1ED6AC0700DAF03B /* SecondAddConroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondAddConroller.m; sourceTree = "<group>"; };
+		38B8CEB41B4AC174FE0CE65845AF5751 /* Pods-FinalObjectiveC_Example-FinalObjectiveC_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FinalObjectiveC_Example-FinalObjectiveC_Tests.modulemap"; sourceTree = "<group>"; };
 		5057A2FCB75B4D01B27999A603236547 /* Pods-FinalObjectiveC_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FinalObjectiveC_Example-umbrella.h"; sourceTree = "<group>"; };
 		522A68FA68793B71F973ADB3FF5D6129 /* Pods-FinalObjectiveC_Example-FinalObjectiveC_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FinalObjectiveC_Example-FinalObjectiveC_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		565F0024B00F6A13FEDED569616AEA59 /* MyManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MyManager.h; sourceTree = "<group>"; };
 		635B6B47C3D6D5658DA0875FFC5922B6 /* Pods-FinalObjectiveC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FinalObjectiveC_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		69F5B77D8BDF2F269A7986D3E1CC5F6B /* FinalObjectiveC.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FinalObjectiveC.bundle; path = FinalObjectiveC.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		69F5B77D8BDF2F269A7986D3E1CC5F6B /* FinalObjectiveC.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalObjectiveC.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A7A12F7560416413A35995CFCDBC6E8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74D7C98E43500951809B212B75FB7C6C /* Pods-FinalObjectiveC_Example-FinalObjectiveC_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FinalObjectiveC_Example-FinalObjectiveC_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		79108C1E7EDB0285E098AF9810C9CE36 /* Pods-FinalObjectiveC_Example-FinalObjectiveC_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FinalObjectiveC_Example-FinalObjectiveC_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7A98796E6569565D1D82B8A702FE08E4 /* FinalObjectiveC.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FinalObjectiveC.xcconfig; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9756D88545FD59902E2D41CDC28A41E3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A1E35606B708EC61A94E22163CB0B096 /* FinalObjectiveC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FinalObjectiveC.modulemap; sourceTree = "<group>"; };
+		A1E35606B708EC61A94E22163CB0B096 /* FinalObjectiveC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FinalObjectiveC.modulemap; sourceTree = "<group>"; };
 		A62CD4EEA549AFD35FACB226BEC2AAE7 /* ResourceBundle-FinalObjectiveC-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FinalObjectiveC-Info.plist"; sourceTree = "<group>"; };
-		AC3B745238CFEA266DA0558E85F590A2 /* Pods-FinalObjectiveC_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FinalObjectiveC_Example.modulemap"; sourceTree = "<group>"; };
+		AC3B745238CFEA266DA0558E85F590A2 /* Pods-FinalObjectiveC_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FinalObjectiveC_Example.modulemap"; sourceTree = "<group>"; };
 		B8EC2AAD7B4B311FC804D0389570FEF2 /* Pods-FinalObjectiveC_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FinalObjectiveC_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BA3D65378741FF4B4427328B7527A3D0 /* Pods-FinalObjectiveC_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FinalObjectiveC_Example-dummy.m"; sourceTree = "<group>"; };
 		D0EF843830579ABBC4A3124AAF55EA9E /* Pods-FinalObjectiveC_Example-FinalObjectiveC_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FinalObjectiveC_Example-FinalObjectiveC_Tests-resources.sh"; sourceTree = "<group>"; };
 		D6692C41DCAB7FAFCFE0E9E343E79E66 /* MyManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MyManager.m; sourceTree = "<group>"; };
-		DB1A83BCEB94A3280F041B6BB88E6720 /* Pods_FinalObjectiveC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FinalObjectiveC_Example.framework; path = "Pods-FinalObjectiveC_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1A83BCEB94A3280F041B6BB88E6720 /* Pods_FinalObjectiveC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FinalObjectiveC_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB0EF348171BF72F742EC967F9CBA658 /* Pods-FinalObjectiveC_Example-FinalObjectiveC_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FinalObjectiveC_Example-FinalObjectiveC_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F695A4CDBD6D2A6D20B68F51E14432E2 /* Pods_FinalObjectiveC_Example_FinalObjectiveC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FinalObjectiveC_Example_FinalObjectiveC_Tests.framework; path = "Pods-FinalObjectiveC_Example-FinalObjectiveC_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F695A4CDBD6D2A6D20B68F51E14432E2 /* Pods_FinalObjectiveC_Example_FinalObjectiveC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FinalObjectiveC_Example_FinalObjectiveC_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCBBF947014A956C07A4763CD33BE42D /* Pods-FinalObjectiveC_Example-FinalObjectiveC_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FinalObjectiveC_Example-FinalObjectiveC_Tests-umbrella.h"; sourceTree = "<group>"; };
 		FEA57F02BB105ACAEAE8FF33E9D070EC /* FinalObjectiveC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FinalObjectiveC-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -221,7 +229,6 @@
 			children = (
 				EA113AABB2B4CB5324043D64DCC8AE7F /* Classes */,
 			);
-			name = FinalObjectiveC;
 			path = FinalObjectiveC;
 			sourceTree = "<group>";
 		};
@@ -248,8 +255,11 @@
 			children = (
 				565F0024B00F6A13FEDED569616AEA59 /* MyManager.h */,
 				D6692C41DCAB7FAFCFE0E9E343E79E66 /* MyManager.m */,
+				37F7C2591ED6ABE000DAF03B /* AddControllerManager.h */,
+				37F7C25A1ED6ABE000DAF03B /* AddControllerManager.m */,
+				37F7C25D1ED6AC0700DAF03B /* SecondAddConroller.h */,
+				37F7C25E1ED6AC0700DAF03B /* SecondAddConroller.m */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -270,6 +280,8 @@
 			files = (
 				47771311CE3D480040E40A51C4924E12 /* FinalObjectiveC-umbrella.h in Headers */,
 				2CEC7AB46A7BDEA6645C96BB4F09AE4C /* MyManager.h in Headers */,
+				37F7C25B1ED6ABE000DAF03B /* AddControllerManager.h in Headers */,
+				37F7C25F1ED6AC0700DAF03B /* SecondAddConroller.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,6 +435,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37F7C2601ED6AC0700DAF03B /* SecondAddConroller.m in Sources */,
+				37F7C25C1ED6ABE000DAF03B /* AddControllerManager.m in Sources */,
 				72BD9EFA0019BB7A5CB9BBD98C6C0C09 /* FinalObjectiveC-dummy.m in Sources */,
 				B86FC58EAABECFCE64CC187F07D84F46 /* MyManager.m in Sources */,
 			);
