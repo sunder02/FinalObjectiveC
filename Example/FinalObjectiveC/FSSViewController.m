@@ -7,7 +7,7 @@
 //
 
 #import "FSSViewController.h"
-#import <FinalObjectiveC/MyManager.h>
+//#import <FinalObjectiveC/MyManager.h>
 #import <FinalObjectiveC/HojaHeader.h>
 
 @interface FSSViewController ()
@@ -19,8 +19,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    MyManager *obj=[[MyManager alloc]init];
-    [obj addSomeText];
+//    MyManager *obj=[[MyManager alloc]init];
+//    [obj addSomeText];
     
     HojaHeader *getpublic=[[HojaHeader alloc]init];
     [getpublic mainHeaderFile];
